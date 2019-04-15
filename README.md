@@ -1,3 +1,9 @@
+# This Fork
+This fork of AppleIISd is designed to use a Motorola MC6852 Synchronous Serial Communications Adapter rather than the specified Xilinix CPLD. 
+The MC6852 IC is expected to produce an SPI compatible signal, though only at 1 MHz speeds. The project uses the 
+[SparkFun Level Shifting microSD Breakout](https://www.sparkfun.com/products/13743) to handle the voltage level shifting problem.
+This is an untested work in progrees.
+
 # AppleIISd
 SD card based ProFile replacement for enhanced Apple IIe and IIgs computers
 
