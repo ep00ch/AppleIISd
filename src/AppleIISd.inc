@@ -10,6 +10,7 @@
 ; Y register is used for counting or SLOT
 ;
 ;*******************************
+.include "MC6852.inc"
 
 ; ZP locations
 PSAVE       :=    $3D         ; P save location
